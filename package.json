@@ -1,0 +1,16 @@
+{
+  "name": "webpack5-http-auth-bug",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build_dev": "webpack --target node --mode development --stats-error-details",
+    "build": "webpack --target node --mode production --stats-error-details"
+  },
+  "dependencies": {
+    "http-auth": "^4.1.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
